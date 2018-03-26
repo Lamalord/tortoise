@@ -2,4 +2,116 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Helvetica;
   }
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background: url("./images/glasses-bg.png") no-repeat center center;
+    background-size: cover;
+    height: 30rem;
+    padding-top: 1rem;
+}
+
+.headlabel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    font-size: 1rem;
+    color: white;
+}
+
+.logo {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.headbox {
+   display: flex;
+   justify-content: flex-end;
+
+}
+
+.headbox h1{
+    background-color: white;
+    padding: 1.5rem 5rem;
+    margin-top: 10rem;
+    margin-right: -2rem;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.services-overview{
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 8rem;
+    margin: 0rem 3rem;
+    width: 5rem;
+    text-align: center;
+}
+
+.services-overview .service img{
+    max-width: 5rem;
+}
+
+.services-overview .service #restrictedicon {
+    max-width: 3.5rem;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.info{
+    width: 35%;
+    margin-right: 5%;
+}
+
+.info h3{
+    color: white;
+    background-color: cadetblue;
+    padding: 0.5rem 1.25rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer{
+    background-color: azure;
+    padding: 4rem 4rem;
+}
